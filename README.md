@@ -31,10 +31,10 @@ Claude will clone the repo and push the functions to your workspace.
    ```sh
    git clone https://github.com/xano-community/integration-jira-issues.git
    cd integration-jira-issues
-   xano workspace:push . -w <your-workspace-id>
+   xano workspace push . -w <your-workspace-id>
    ```
 
-   Replace `<your-workspace-id>` with the ID from `xano workspace:list`.
+   Replace `<your-workspace-id>` with the ID from `xano workspace list`.
 
 ## Configure Credentials
 
